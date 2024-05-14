@@ -1,0 +1,172 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>User profile</title>
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT-AWESOME STYLE SHEET FOR BEAUTIFUL ICONS -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+     <!-- CUSTOM STYLE CSS -->
+    <style type="text/css">
+               .btn-social {
+            color: white;
+            opacity: 0.8;
+        }
+
+            .btn-social:hover {
+                color: white;
+                opacity: 1;
+                text-decoration: none;
+            }
+
+        .btn-facebook {
+            background-color: #3b5998;
+        }
+
+        .btn-twitter {
+            background-color: #00aced;
+        }
+
+        .btn-linkedin {
+            background-color: #0e76a8;
+        }
+
+        .btn-google {
+            background-color: #c32f10;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Uniten Club</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav ">
+                  <li><a href="index.html">HOME</a></li>
+                 
+                     <li><a href="login.html">Logout</a></li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- NAVBAR CODE END -->
+
+
+    <div class="container">
+        <section style="padding-bottom: 50px; padding-top: 50px;">
+            <div class="row">
+                <div class="alert alert-info">
+                        <h2>Jhon Deo Profile : </h2>
+                        
+                        <p>
+                           Welcome to your profile, you can edit your details here...
+                        </p>
+                    </div>
+               
+                    
+                <div class="col-md-4">
+                    <img src="assets/img/250x250.png" class="img-rounded img-responsive" />
+                    <br />
+                    <br />
+                    
+                </div>
+                <div class="col-md-8">
+                   
+                    <div>
+                        <a href="#" class="btn btn-social btn-facebook">
+                            <i class="fa fa-user"></i>&nbsp; YOU HAVE ALREADY REGISTERED FOR THE EVENT</a>
+                        
+                    </div>
+                    <br/>
+                    <div class="form-group col-md-8">
+                      <label>Registered Username</label>
+                    <input type="text" class="form-control" placeholder="Demouser">
+                  <br>  <label>Registered Name</label>
+                    <input type="text" class="form-control" placeholder="Jhon Deo">
+                  <br>  <label>Registered Email</label>
+                    <input type="text" class="form-control" placeholder="jnondeao@gmail.com"><br>
+
+                        <label>Gender:</label> <br>
+                        <input type="radio"   name="gender" value= "Male"/>
+                        Male
+                        <div class="clear"> </div>
+                    
+                        <input type="radio"   name="gender" value= "Female"/>
+                        Female
+                        <div class="clear"> </div>
+                        
+                    <br>
+                        
+                 <label>Phone</label>
+                        <input type="text" class="form-control" name="phone"  placeholder="Phone" required/>
+                        <a href="#" class="icon ticker"> </a>
+                        <div class="clear"> </div><br>
+                  <label>  Address:</label>
+                        <textarea class="form-control" name ="address" rows ="3" cols="50" value="Address" required/>
+                        </textarea>
+                    <br>
+                      <label>College:</label> <br>
+                        <input type="radio"   name= "college" value= "CSIT"/>
+                        CSIT
+                        <div class="clear"> </div>
+                    
+                        <input type="radio"   name= "college" value= "COE"/>
+                        COE
+                        <div class="clear"> </div>
+                        
+                        <input type="radio"   name= "college" value= "CFGS"/>
+                        CFGS
+                        <div class="clear"> </div>
+                        
+                        <input type="radio"   name= "college" value= "Masters"/>
+                        Masters
+                        <div class="clear"> </div>
+                        
+                        <input type="radio"   name= "college" value= "NotStud"/>
+                        Not a Student 
+                        <div class="clear"> </div><br>
+                 <label>Password</label>
+                        <input type="password" class="form-control"  name="password" placeholder="password" required/>
+                      <br>
+                  
+                    <label class="checkbox"><input type="checkbox" name="inform" checked="" name="information" value="Yes"><i> </i>inform me of upcoming  programs</label>
+                  
+                </ul>
+            </form>
+                    <br>
+                    <a href="#" class="btn btn-success">Update Details</a>
+                    <br /><br/>
+                    </div>
+                </div>
+            </div>
+            <!-- ROW END -->
+
+
+        </section>
+        <!-- SECTION END -->
+    </div>
+    <!-- CONATINER END -->
+
+    <!-- REQUIRED SCRIPTS FILES -->
+    <!-- CORE JQUERY FILE -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- REQUIRED BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
